@@ -13,7 +13,7 @@ gettradesignals.py [OPTIONS] INTERVAL BASE MINVOLUME
 
   :param base: The base currency of the market pair [BTC, ETH, USD or USDT]
 
-  :param minvolume: Minimum volume in base currency units
+  :param minvolume: Minimum 24h volume in base currency units
 
 ### Options:
   --help  Show this message and exit.
