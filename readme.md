@@ -1,13 +1,13 @@
 # Get trade signals
 
-###Usage: 
+### Usage: 
 gettradesignals.py [OPTIONS] INTERVAL BASE MINVOLUME
 
   Command line interface for a small routine that requests information from the bittrex API and uses
   Ichimoku kinko hyo to generate trend signals for each market that are dumped to a JSON
   file
 
-###Arguments:
+### Arguments:
   :param interval: The candlestick interval [“oneMin”, “fiveMin”,
   “thirtyMin”, “hour”, “day”]
 
@@ -15,5 +15,5 @@ gettradesignals.py [OPTIONS] INTERVAL BASE MINVOLUME
 
   :param minvolume: Minimum volume in base currency units
 
-###Options:
+### Options:
   --help  Show this message and exit.
